@@ -54,6 +54,22 @@ section h2{
   margin-bottom: 20px;
 }
 
+/* src/App.css */
+.App{
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+h1{
+  color: #333;
+}
+.testimonials-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 footer{
   background: #333;
   color: #fff;
