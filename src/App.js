@@ -8,7 +8,7 @@ import Testimonial from './components/Testimonial';
 function App() {
   const testimonials = [
     {
-      name: 'Juan Pérez',
+      name: 'Juan Rodrigo',
       title: 'Desarrollador Frontend',
       image: 'https://img.freepik.com/fotos-premium/sentirse-feliz-positivo-exitoso-celebrando-logros-victoria-o-buena-suerte_1194-559026.jpg',
       text: '¡Este producto cambió mi vida! Lo recomiendo al 100%.'
@@ -44,7 +44,6 @@ function App() {
         </Section>
       </main>
 
-      {/* Aquí están los testimonios */}
       <h1>Testimonios</h1>
       <div className="testimonials-container">
         {testimonials.map((testimonial, index) => (
